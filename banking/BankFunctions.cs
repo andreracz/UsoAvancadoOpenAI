@@ -38,8 +38,7 @@ public class BankFunctions {
         return retVal;
     }
 
-    [Description("Obtem os boletos pendentes do usuario atual")]
-    
+    [Description("Paga um boleto da conta do usuário atual")]
     public string PagarBoleto([Description("Numero do Boleto")] string numeroBoleto)
     {
         System.Console.WriteLine("Pagar Boleto " + numeroBoleto + " chamado");
